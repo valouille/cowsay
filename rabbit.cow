@@ -1,0 +1,18 @@
+##
+## rabbit says...
+##
+## released under the same licences as `cowsay` software.
+## Stephane Blondon, 2014 <stephane.blondon@gmail.com>
+
+$the_cow = <<EOC;
+    $thoughts    /|
+     $thoughts  | |   ____
+      $thoughts \\ |--/ ___\\
+       $thoughts ) $eyes (   `
+       =(>(\\/)<)=_ --._
+         (  $tongue   /     \\_
+          \\    ,(      / )
+          | | / _\\   ,'-'
+         (_(_/ (______)
+EOC
+
