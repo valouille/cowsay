@@ -1,0 +1,17 @@
+sudo: required
+language: python
+python: 2.7
+services:
+- docker
+
+jobs:
+  include:
+    - name: Docker login
+      script:
+        - make login
+    - name: Docker build
+      script:
+        - make build
+    - name: Docker push
+      script:
+        - make push
